@@ -19,9 +19,6 @@
 	padding: 10px;
 
 }
-<<<<<<< HEAD
-
-=======
 .cardBodyBorderColor{
 	border : 2px solid #007bff!important;
 }
@@ -33,4 +30,7 @@
 .text-card-body{
 	color: blue;
 }
->>>>>>> 362e6bb81a6adc2456679d09fb5fa8e66e5adcb5
+.videoTitle{
+	margin-left: .75em;
+	margin-top: .75em;
+}
