@@ -1,3 +1,10 @@
 #topLogo{
 	width: 100%;
 }
+.searchBtn{
+	display: inline;
+	max-width: 20%
+}
+.searchBox{
+	max-width: 70%;
+}
