@@ -1,6 +1,6 @@
 #topLogo{
 	width: 70%;
-	margin-left: 2em
+	margin-left: 2em;
 }
 .searchBtn{
 	display: inline;
@@ -19,4 +19,18 @@
 	padding: 10px;
 
 }
+<<<<<<< HEAD
 
+=======
+.cardBodyBorderColor{
+	border : 2px solid #007bff!important;
+}
+
+.textCardHeard>div{
+	color: white;
+}
+
+.text-card-body{
+	color: blue;
+}
+>>>>>>> 362e6bb81a6adc2456679d09fb5fa8e66e5adcb5
