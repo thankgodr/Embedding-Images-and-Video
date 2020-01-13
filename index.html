@@ -11,12 +11,17 @@
 
 <body>
 	<header>
-		<nav>
+		<nav class="defaultMargin">
 			<div class="row">
-				<div class="col-md-2  logoDiv">
+
+				<div class="col-md-1 defaultMargin">
+					<button><i class="fa fa-bars"></i> </button>
+				</div>
+				
+				<div class="col-md-2 logoDiv">
 					<img id="topLogo" src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png ">
 				</div>
-				<div class="col-md-6 searchDiv">
+				<div class="col-md-7 searchDiv">
 					<form>
 						<div class="form-group">
 							<input type="text" name="search" class="form-control searchBox"><span><button class="searchBtn"><i class="fa fa-search"></i></button></span>
@@ -24,8 +29,11 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-md-3 topButtonDiv">
-					 
+				<div class="col-md-2 topButtonDiv">
+					
+					<button class="searchBtn"> <i class=" fa fa-upload"></i> </button> 
+					<button class="searchBtn btn-primary">Sign in</button>
+
 				</div>
 			</div>
 		</nav>		
