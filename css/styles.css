@@ -49,9 +49,11 @@
 }
 
 .viewNumbers{
+	position: relative;
+}
+.viewNumbers > p{
 	position: absolute;
-    right: 12em;
-    bottom: 15em;
+	bottom: -35px;
 }
 
 /* Style for switch on the player list */
@@ -188,4 +190,12 @@ main{
 }
 .LastinkFooterMarginLeft{
 	margin-left: 15px !important;
+}
+
+.webBox{
+	margin-right: 5em;
+	margin-left: 5em;
+	padding : 2em;
+	border: 3px solid grey;
+
 }
