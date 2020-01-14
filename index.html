@@ -17,7 +17,7 @@
 			<div class="row">
 
 				<div class="col-md-1 defaultMargin">
-					<button><i class="fa fa-bars"></i> </button>
+					<button id="bottonBars"><i class="fa fa-bars"></i> </button>
 				</div>
 				
 				<div class="col-md-2 logoDiv">
@@ -28,20 +28,19 @@
 				<div class="col-md-7 searchDiv">
 					<form>
 						<div class="form-group">
-							<input type="text" name="search" class="form-control searchBox"><span><button class="searchBtn"><i class="fa fa-search"></i></button></span>
-							
+							<input type="text" name="search" class="form-control searchBox" placeholder="Search"><span><button class="searchBtn"><i class="fa fa-search"></i></button></span>
 						</div>
 					</form>
 				</div>
 
 				<div class="col-md-2 topButtonDiv">
-					<button class="searchBtn"> <i class=" fa fa-upload"></i> </button> 
+					<button class="searchBtn buttonUploard"> <i class=" fa fa-upload"></i> </button> 
 					<button class="searchBtn btn-primary">Sign in</button>
 				</div>
 			</div>
 		</nav>	
 
-		<div class="card">
+		<div class="card cardChooseLanguage">
 				<div class="card-header bg-primary">
 					<div class="row textCardHeard" >
 						<div class="col-md-11">
@@ -56,8 +55,8 @@
 				</div>
 				<div class="card-body cardBodyBorderColor">
 					<div class="row">
-						<div class="col-md-11">You're viewing YouTube in <b>English (US)</b>. You can <a href="#">change this preference below</a>.</div>
-						<div class="col-md-1"><a href="#">Learn more</a></div>
+						<div class="col-md-11 ">You're viewing YouTube in <b>English (US)</b>. You can <a href="#">change this preference below</a>.</div>
+						<div class="col-md-1 " ><a href="#">Learn more</a></div>
 					</div>
 				</div>
 		</div>
@@ -65,92 +64,92 @@
 
 	<main>
 		<div class="row">
-			<div class="col-md-8">
-				<video width="80%" height="320" controls="controls">
+			<div class="col-md-8 videoContainer" >
+				<video  height="320" controls="controls">
 					<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
 				</video>
+				<div class="card cardPanel">
+					<div class="card-body">
+						<h3 class="videoTitle">Contributing to Open Source Part I: The Easy Way</h3>
 
-			    <h3 class="videoTitle">Video Title</h3>
-
-			    <div class="row">	
-					<div class="col-md-8">
-						<table class="videoTitle">
-							<tr>
-								<td>
-									<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k=">
-								</td>	
-								<td>
-									<table>
+						<div class="row">	
+							<div class="col-md-10">
+								<table class="videoTitle">
+									<tr>
+										<td>
+											<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k=">
+										</td>	
+										<td>
+											<table>
+												<tr>
+											<td>The odin Project</td>
+										</tr>
 										<tr>
-									<td>The odin Project</td>
-								</tr>
-								<tr>
-									<td>
-										<button class="btn btn-danger subscribedYouTubes">subscribed</button>
-										<span title="799" style="background-color: rgb(250, 250, 250); vertical-align:middle;border-top-left-radius:0px 0px;border-top-right-radius:2px 2px;border-bottom-right-radius:2px 2px;border-bottom-left-radius:0px 0px;color:rgb(115, 115, 115);font-size:11px;text-align:center;height:29px;line-height:24px;display:inline-block;border-width: 1px 1px 1px medium; border-style: solid solid solid none; margin: 0px 0px 0px -2px; padding: 0px 6px 0px 7px; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) white; ">799</span>
-									</td>
-								</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</div>
-			    	  
-			    	<div class="col-md-2 viewNumbers">
-			    		<p>50,016 views</p>
-			    	</div>
-				</div>
-				<div class="row">
-					<div class="col-md-10">
-						<hr class="horizontalLine"/>
-					</div>
-				</div>
-				
-				<div class="row">
+											<td>
+												<button class="btn btn-danger subscribedYouTubes"> <i class="fa fa-play"></i> subscribed</button>
+												<span title="799" class="subscribedNumber">799</span>
+											</td>
+										</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</div>
+							
+							<div class="col-md-2 viewNumbers">
+								<p class="blueLine"></p>
+								<p>50,016 views</p>
+							</div>
+							
+						</div>
 						
-					<div class="col-md-8">
 						
-						<button class="btn icon"  >
-							<i class="fa fa-plus" aria-hidden="true">Add to</i>
-						</button>
-						<button class="btn">
-							<i class="fa fa-share" aria-hidden="true">Share</i>
-						</button>
-						<button class="btn">
-							<i class="fa fa-ellipsis-h" aria-hidden="true">More</i>
-						</button>
-						
-					</div>
-					<div class="col-md-2">
-						<button class="btn">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-						</button>
-						<button class="btn">
-							<i class="fa fa-thumbs-down" aria-hidden="true"></i>
-						</button>
+						<div class="row createdTopLine">
+							<div class="col-md-9">
+								
+								<button class="btn icon"  >
+									<i class="fa fa-plus" aria-hidden="true">Add to</i>
+								</button>
+								<button class="btn">
+									<i class="fa fa-share" aria-hidden="true">Share</i>
+								</button>
+								<button class="btn">
+									<i class="fa fa-ellipsis-h" aria-hidden="true">More</i>
+								</button>
+								
+							</div>
+							<div class="col-md-3">
+								<button class="btn">
+									<i class="fa fa-thumbs-up" aria-hidden="true">&nbsp;359</i>
+								</button>
+								<button class="btn">
+									<i class="fa fa-thumbs-down" aria-hidden="true">&nbsp;14</i>
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 				
 			
 				
-				<div class="card cardTextExplanation">
+				<div class="card cardPanel">
 					<div class="card-body">
-						Published on Feb 27, 2014
-						How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
+						 <b>Published on Feb 27, 2014</b><br/>
+						 How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
 					</div>
 					<hr class="horizontalLine horizontalCenter"/>
+					<span class="horizontalCenter showMoreStyle">SHOW MORE</span>
 				</div>
 
-				<div class="card cardTextExplanation">
+				<div class="card cardPanel">
 					<div class="card-body">
-						<p align="center"><i class="fa fa-spinner fa-spin spinnerSize"></i>Loading...</p>
+						<p class="loadingCenter"><i class="fa fa-spinner fa-spin spinnerSize"></i>Loading...</p>
 					</div>
-					<hr class="horizontalLine horizontalCenter"/>
 				</div>
 			</div>
 			
 			
-			<div class="col-md-4">
+			<aside class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
 						<p>Upnext
@@ -218,12 +217,52 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						<hr class="horizontalLine horizontalCenter" />
-						<p align="center">Show more</p>
+					<div class="col-md-6">
+						<img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" width="100%">
+					</div>
+					<div class="col-md-6">
+						<h6 class="nextVideoTitle">Contributing to Open Source Part II: The Real Way</h6>
+						<p class="nextVideoOwner">The Odin Project</p>
+						<p class="nextVideoTotalViews">23,5756 views</p>
 					</div>
 				</div>
-			</div> 
+				<div class="row">
+					<div class="col-md-6">
+						<img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" width="100%">
+					</div>
+					<div class="col-md-6">
+						<h6 class="nextVideoTitle">Contributing to Open Source Part II: The Real Way</h6>
+						<p class="nextVideoOwner">The Odin Project</p>
+						<p class="nextVideoTotalViews">23,5756 views</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" width="100%">
+					</div>
+					<div class="col-md-6">
+						<h6 class="nextVideoTitle">Contributing to Open Source Part II: The Real Way</h6>
+						<p class="nextVideoOwner">The Odin Project</p>
+						<p class="nextVideoTotalViews">23,5756 views</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" width="100%">
+					</div>
+					<div class="col-md-6">
+						<h6 class="nextVideoTitle">Contributing to Open Source Part II: The Real Way</h6>
+						<p class="nextVideoOwner">The Odin Project</p>
+						<p class="nextVideoTotalViews">23,5756 views</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr class="horizontalLine horizontalCenter" />
+						<p class="showMoreStyle">SHOW MORE</p>
+					</div>
+				</div>
+			</aside> 
 			
 		</div>
 		
@@ -233,7 +272,7 @@
 	</main>
 
 	<footer>
-		<div class="card cardTextExplanation">
+		<div class="card cardPanelFooter">
 			<div class="card-body">
 				<div class="row">
 					<div class="col-md-12 flexibleDisplay">
@@ -246,7 +285,7 @@
 							<div ><button type="button" class="btn btn-default "><i class="fa fa-hourglass-end"></i> History</button></div>
 							<div ><button type="button" class="btn btn-default"><i class="fa fa-question-circle"></i> Help</button></div>
 					</div>
-					<hr class="horizontalLine horizontalCenter" />
+					<hr class="horizontalLineFooter horizontalCenter" />
 				</div>
 				<div class="row">
 					<div class="col-md-12 linkWithoutStyle">
