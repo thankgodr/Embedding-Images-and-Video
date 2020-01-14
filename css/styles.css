@@ -37,10 +37,19 @@
 .subscribedYouTubes{
 	padding: 1px;
 }
-.lineUnderVideo{
-	margin-left: 0px;
-	width:80%;
+.horizontalLine{
+	width:90%;
 }
 .cardTextExplanation{
 	width:80%;
+}
+.horizontalCenter{
+	margin-left: auto !important; ;
+    margin-right: auto !important; ;
+}
+
+.viewNumbers{
+	position: absolute;
+    right: 12em;
+    bottom: 15em;
 }
