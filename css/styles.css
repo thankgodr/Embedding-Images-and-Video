@@ -44,8 +44,8 @@
 	width:80%;
 }
 .horizontalCenter{
-	margin-left: auto !important; ;
-    margin-right: auto !important; ;
+	margin-left: auto !important; 
+    margin-right: auto !important; 
 }
 
 .viewNumbers{
@@ -127,4 +127,65 @@ main{
 }
 .spinnerSize{
 	font-size: 12px;
+}
+
+.youtubeImageFooter{
+	height: 30px;
+}
+
+.flexibleDisplay{
+	display: inline-flex;
+}
+.flexibleDisplay > div{
+	margin-right: 1em;
+}
+.flexibleDisplay > div >button{
+	font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    display: inline-block;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(51, 51, 51);
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    outline: invert none 0px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px -1px 0px 0px;
+    padding: 0px 10px;
+    border-color: rgb(211, 211, 211);
+	
+}
+.linkWithoutStyle > a, .linkWithoutStyle > a:hover, .linkWithoutStyle > a:focus, .linkWithoutStyle > a:active {
+	text-decoration: none;
+	color: inherit;
+	margin-right: 15px;
+} 
+.linkWithSpecificStyle>a{
+	background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+    font-weight: 500;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+	border-color: white;
+	margin-right: 15px;
+}
+.LastinkFooterMarginLeft{
+	margin-left: 15px !important;
 }
