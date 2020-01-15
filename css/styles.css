@@ -1,0 +1,328 @@
+#bottonBars{
+	font-size: 23px;
+	background-color: transparent;
+	border-style: none;
+	border-color: white;
+}
+#bottonBars>i{
+	font-size: 25px;
+    color: #8080807a;
+}
+.buttonUploard{
+	border-style: none;
+	border-color: white;
+	background-color: transparent;
+}
+.buttonUploard > i{
+	font-size: 25px;
+	color:#808080e8;
+}
+#topLogo{
+	width: 70%;
+	margin-left: 2em;
+}
+.searchBtn{
+	display: inline;
+	height: calc(1.5em + .75rem + 2px);
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+	line-height: 1.5;
+	
+
+	
+}
+.searchBox{
+	max-width: 70%;
+	display: inline-block !important;	
+}
+.defaultMargin {
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+}
+nav.defaultMargin>div{
+	margin-left: 0px;
+}
+.cardBodyBorderColor{
+	border : 2px solid #007bff!important;
+}
+
+.textCardHeard>div{
+	color: white;
+}
+
+.text-card-body{
+	color: blue;
+}
+.videoTitle{
+	margin-left: .75em;
+	margin-top: .75em;
+}
+.subscribedYouTubes{
+	font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+    color: rgb(254, 254, 254);
+    max-width: 100%;
+    height: 24px;
+    background-color: rgb(255, 0, 0);
+    outline: invert none 0px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px 8px 0px 5.5px;
+    border-color: transparent;
+}
+.horizontalLine{
+	width:90%;
+}
+.horizontalLineFooter{
+	width:98%;
+}
+.cardPanel{
+	width:99%;
+	margin:0px 0px 10px;
+}
+.cardPanelFooter{
+	width:100%;
+}
+.horizontalCenter{
+	margin-left: auto !important; 
+    margin-right: auto !important; 
+}
+
+.viewNumbers{
+	position: relative;
+}
+.viewNumbers > p{
+	position: absolute;
+    bottom: -17px;
+	left: -84px;
+	
+	
+}
+
+/* Style for switch on the player list */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 23px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* End of style for Switch */
+
+main{
+	margin: auto;
+    padding: 15px;
+}
+#leftBarAutoplay{
+	position: absolute;
+    right: 0px;
+    margin-right: 27px;
+}
+.spinnerSize{
+	font-size: 12px;
+}
+
+.youtubeImageFooter{
+	height: 30px;
+}
+
+.flexibleDisplay{
+	display: inline-flex;
+}
+.flexibleDisplay > div{
+	margin-right: 1em;
+}
+.flexibleDisplay > div >button{
+	font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    display: inline-block;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(51, 51, 51);
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    outline: invert none 0px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px -1px 0px 0px;
+    padding: 0px 10px;
+    border-color: rgb(211, 211, 211);
+	
+}
+.linkWithoutStyle > a, .linkWithoutStyle > a:hover, .linkWithoutStyle > a:focus, .linkWithoutStyle > a:active {
+	text-decoration: none;
+	color: inherit;
+	margin-right: 15px;
+} 
+.linkWithSpecificStyle>a{
+	background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+    font-weight: 500;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+	border-color: white;
+	margin-right: 15px;
+}
+.LastinkFooterMarginLeft{
+	margin-left: 15px !important;
+}
+
+.webBox{
+	margin-right: 5em;
+	margin-left: 5em;
+	/* padding : 2em; */
+	border: 3px solid grey;
+	background-color: #EEEEEE;
+}
+
+#autoplayText{
+	color: rgb(118, 118, 118);
+}
+#autoplayInfoIcon > i{
+	color: rgb(118, 118, 118);
+}
+.nextVideoOwner{
+	color: rgb(118, 118, 118);
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+.nextVideoTotalViews{
+	font-size: 13px;
+}
+.subscribedNumber{
+	background-color: rgb(250, 250, 250); vertical-align:middle;border-top-left-radius:0px 0px;border-top-right-radius:2px 2px;border-bottom-right-radius:2px 2px;border-bottom-left-radius:0px 0px;color:rgb(115, 115, 115);font-size:11px;text-align:center;height:22px;line-height:24px;display:inline-block;border-width: 1px 1px 1px medium; border-style: solid solid solid none; margin: 0px 0px 0px -2px; padding: 0px 6px 0px 7px; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) white; 
+}
+.showMoreStyle{
+	color: rgb(118, 118, 118);
+	font-size: 13px;
+	text-align: center;
+}
+main>div.row{
+	background-color: #EEEEEE;
+}
+aside{
+	background-color: white;
+}
+footer{
+	margin-top:12em;
+}
+.videoContainer{
+	padding-left: 0px;
+}
+.videoContainer>video{
+	width: 99%;
+}
+.cardChooseLanguage{
+	margin-top: 0.7em;
+}
+.createdTopLine{
+	font-size: 100%;
+    background-color: transparent;
+    position: relative;
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    margin: 0px;
+    padding: 0px 0px 0px;
+    border-color: rgb(226, 226, 226) white white;
+}
+.blueLine{
+	font-size: 100%;
+	float: left;
+	height: 3px;
+	background-color: rgb(22, 122, 198);
+	width: 81.246649%;
+	border-width: 0px;
+	border-style: none;
+	/* margin: 0px; */
+	padding: 0px;
+	border-color: white;
+}
+.loadingCenter{
+	text-align: center;
+}
