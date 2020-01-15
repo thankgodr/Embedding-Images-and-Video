@@ -339,3 +339,6 @@ footer{
 	padding: 0px; 
 	border-color: white; 
 }
+#sideBarVideoList > div >div> img{
+	width: 100%;
+}
