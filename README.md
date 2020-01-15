@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.io/thankgodr/Embedding-Images-and-Video)
+[Live Demo Link](https://thankgodr.github.io/Embedding-Images-and-Video/)
 
 
 ## Authors
